@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.98987ece.chunk.css",
+    "main.js": "/static/js/main.da97fe1d.chunk.js",
+    "main.js.map": "/static/js/main.da97fe1d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.00076a33.js",
+    "runtime-main.js.map": "/static/js/runtime-main.00076a33.js.map",
+    "static/js/2.a9267313.chunk.js": "/static/js/2.a9267313.chunk.js",
+    "static/js/2.a9267313.chunk.js.map": "/static/js/2.a9267313.chunk.js.map",
+    "static/js/3.ef414de6.chunk.js": "/static/js/3.ef414de6.chunk.js",
+    "static/js/3.ef414de6.chunk.js.map": "/static/js/3.ef414de6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.98987ece.chunk.css.map": "/static/css/main.98987ece.chunk.css.map",
+    "static/js/2.a9267313.chunk.js.LICENSE.txt": "/static/js/2.a9267313.chunk.js.LICENSE.txt",
+    "static/media/PoseNumbers.c18dfdc2.png": "/static/media/PoseNumbers.c18dfdc2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.00076a33.js",
+    "static/js/2.a9267313.chunk.js",
+    "static/css/main.98987ece.chunk.css",
+    "static/js/main.da97fe1d.chunk.js"
+  ]
+}
