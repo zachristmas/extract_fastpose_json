@@ -64,9 +64,9 @@ export const StyledDropzone = (props) => {
         const keypointMap = JSON.parse(binaryStr).map((x, idx) => {
           return {
             frame: idx,
-            [props.mapName + '_x']: x[0]['pose_3d'][props.mapName]['x'],
-            [props.mapName + '_y']: x[0]['pose_3d'][props.mapName]['y'],
-            [props.mapName + '_z']: x[0]['pose_3d'][props.mapName]['z'],
+            [props.mapName + '_x']: x[0]['pose_3d'][props.mapName]['x'] * 1000,
+            [props.mapName + '_y']: x[0]['pose_3d'][props.mapName]['y'] * 1000,
+            [props.mapName + '_z']: x[0]['pose_3d'][props.mapName]['z'] * 1000,
             [props.mapName + '_c']: x[0]['confidence'][props.keypoint]
           }
         })
