@@ -61,7 +61,7 @@ export const StyledDropzone = (props) => {
         //reader.result is the input JSON file from fastpose
         const binaryStr = reader.result
 
-        const keypointMap = JSON.parse(binaryStr).map((x, idx) => {
+        const keypointMap = JSON.parse(binaryStr).filter(z => z[0] && z[0].pose_3d).map((x, idx) => {
           return {
             frame: idx,
             [props.mapName + '_x']: x[0]['pose_3d'][props.mapName]['x'] * 1000,
